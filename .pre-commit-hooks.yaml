@@ -1,0 +1,7 @@
+- id: generate-api-resources
+  name: Generate API Resources
+  description: Using the Hivemind Nest API, downloads the swagger json and generates documentation.
+  entry: scripts/utils/openapi-resources.sh
+  language: docker
+  files: apps/api/
+  verbose: true
